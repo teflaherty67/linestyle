@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command linestyle</Text>
+    <Description>Some description for linestyle</Description>
+    <Assembly>linestyle.dll</Assembly>
+    <FullClassName>linestyle.Command</FullClassName>
+    <ClientId>3d59225e-9257-4c6a-830c-187346548c6b</ClientId>
+    <VendorId>T Edward</VendorId>
+    <VendorDescription>T Edward Coder</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application linestyle</Name>
+    <Assembly>linestyle.dll</Assembly>
+    <FullClassName>linestyle.App</FullClassName>
+    <ClientId>e301f587-8230-476a-b29a-95aa109d2685</ClientId>
+    <VendorId>T Edward</VendorId>
+    <VendorDescription>T Edward Coder</VendorDescription>
+  </AddIn>
+</RevitAddIns>
